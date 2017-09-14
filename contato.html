@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Vertio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="content/css/bootstrap.min.css">
+    <!-- Folhas de Estilos Externas -->
+    <link rel="stylesheet" type="text/css" href="content/css/main.css">
+    <link rel="stylesheet" type="text/css" href="content/css/equipe.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="content/img/logo.png"></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="estudio.html">Estúdio</a></li>
+                        <li><a href="trabalhos.html">Trabalhos</a></li>
+                        <li class="active"><a href="contato.html">Contato</a></li>
+                        <li>
+                            <div class="social">
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-border fa-youtube-play" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.instagram.com/estudiovertio/" target="_blank">
+                                    <i class="fa fa-border fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://twitter.com/estudiovertio" target="_blank">
+                                    <i class="fa fa-border fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.facebook.com/estudiovertio" target="_blank">
+                                    <i class="fa fa-border fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header_bottom"></div>
+        </div>
+
+    </header>
+
+    <!-- BODY -->
+    <div class="container">
+
+        <div class="col-md-6 coml-sm-12 fale-conosco">
+            <h3>Fale Conosco</h3><br>
+
+            <form id="contact" method="post" class="form" role="form">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 form-group">
+                        <input class="form-control" id="nome" name="nome" placeholder="Nome" type="text" required autofocus />
+                    </div>
+                    <div class="col-xs-12 col-md-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="E-mail" type="email" required />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 form-group">
+                        <input type="text" class="form-control" id="assunto" name="assunto" placeholder="Assunto" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Mensagem" required rows="10"></textarea>
+                <br />
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 form-group">
+                        <button class="btn btn-primary center-block" type="submit" id="submit">ENVIAR</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="col-md-6 coml-sm-12 localizacao">
+                            <h3>Estúdio Vertio</h3>
+                            <p>
+                            R. Afonso Celso, 235 - Vila Mariana
+                            São Paulo/SP - 04119-001
+                            Tel: +55 11 5085-5000
+                            E-mail: contato@vertio.com.br
+                            </p>
+            <div class="google-maps">
+           <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:345px;width:700px;'><div id='gmap_canvas' style='height:345px;width:700px;'></div><div><small><a href="http://www.embedgooglemaps.com">The quickest Map generator on the web!</a></small></div><div><small><a href="http://proxysitereviews.com/">We review all proxy sites!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(-23.5934006,-46.63513649999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.5934006,-46.63513649999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Estúdio Vertio</strong><br>Rua Afonso Celso, 235<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            </div>
+        </div>
+
+    </div>
+    <!-- END BODY -->
+
+    <!-- FOOTER -->
+    <div class="footer_bottom"></div>
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer"><br>
+                        <p>© 2016 Estúdio Vertio - Todos os direitos reservados. Rua Afonso Celso, 235 – Vila Mariana - SP - Brasil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- END FOOTER -->
+    <!-- MODAL -->
+    
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">          
+          <h4 class="modal-title">Obrigado pela mensagem!</h4>
+        </div>
+        <div class="modal-body">
+          <p>Assim que possível retornaremos
+o seu contato. ;)</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="close-border close" data-dismiss="modal">&times;</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="content/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="content/js/teste.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background: #481a7f; 
+}
+
+footer {
+    background: #fff;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer_bottom {
+    position: relative;
+    width: 100%;
+    background: url(../img/footer-bottom.png) repeat-x;
+    height: 32px;
+    z-index: 999;
+}
+
+.conteudo {
+    color:#d5db4e;
+    margin-top: 150px;
+}
+
+.footer {
+    color: #c25229;
+    text-align: center;    
+}
+
+/* ==========================================================================
+  ESTUDIO
+  ========================================================================== */
+
+hr {
+    color: red;
+    background=color: red;
+    border:solid 0.05px;
+    height: 0.05px;
+}
+
+.gisele, .lucas, .murilo, .ruan, .samantha {
+    display:block;
+}
+.gisele-2, .lucas-2, .murilo-2, .ruan-2, .samantha-2 {
+    display:none;
+}
+
+
+@media screen and (min-width: 1280px) {
+
+.gisele, .lucas, .murilo, .ruan, .samantha { display:none;
+    }
+    
+.gisele-2, .lucas-2, .murilo-2, .ruan-2, .samantha-2 {display:block;
+    }
+
+}
+
+
+
+/*organizar as classes depois*/
+
+/* ==========================================================================
+  CONTATO
+  ========================================================================== */
+.fale-conosco h3 {
+    color: #d5db4e;
+    margin-top: 150px;
+}
+.fale-conosco .form-control {
+    background: #c6552b;
+    color: #fff;
+    min-height: 50px;
+    margin: 5px;
+    border: 0px ;
+    border-radius: 0px;
+}
+
+.fale-conosco .form-control::-webkit-input-placeholder { color: white; }
+.fale-conosco .form-control:-moz-placeholder { color: white; }
+.fale-conosco .form-control::-moz-placeholder { color: white; }
+.fale-conosco .form-control:-ms-input-placeholder { color: white; }
+
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    margin-top: -10px;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+.localizacao h3 {
+    color: #d5db4e;
+    text-align: right;
+    margin-top: 150px;
+}
+
+.localizacao p {
+    white-space: pre-line;
+    color: #d5db4e;
+    text-align: right;
+}
+
+.btn-primary {
+    background-color: #481a7f;
+    border-color: #c6552b;
+    width: 70%;
+}
+.btn-primary:hover {
+    background-color: #d5db4e;
+    border-color: #c6552b;
+    color: #481a7f;
+}
+
+.modal-content {
+    background-color: #c6552b;
+    color: white;
+}
+.modal-header {
+    border-bottom: 0;
+    text-align: center;
+}
+.modal-body {
+    text-align: center;
+}
+.modal-footer {
+    border-top: 0;
+    text-align: center;
+}
+.close {
+    text-align: center; 
+    font-size: 40px;
+    color: white;
+    opacity: 1;
+    float: none;
+    border-radius: 50%;
+    border-bottom-color: aqua;
+}
+.close:focus, .close:hover {
+    color: #d5db4e;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: 1;
+}
+.close-border {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    .localizacao h3 {
+    text-align: left;
+}
+
+.localizacao p {
+    text-align: left;
+}
+}
+
