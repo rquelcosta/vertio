@@ -22,7 +22,7 @@ body{ margin:0px 0px; }
 
 .caption {
     position: absolute;
-    top: 18%;
+    top: 50%;
     width: 100%;
     z-index: 2;
 }
@@ -37,7 +37,29 @@ body{ margin:0px 0px; }
 .bg-roxo {
     background: #481a7f;
     position: absolute;
-    min-height: 280px;
+    min-height: 170px;
+    bottom: 0;
     width: 100%;
     opacity: 0.8;
+}
+
+
+/* ==========================================================================
+Queries
+========================================================================== */
+
+@media (max-width: 992px) {
+    
+    .caption h1{
+        font-size: 35px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    
+    .caption h1{
+        font-size: 30px;
+    }
+    
 }
